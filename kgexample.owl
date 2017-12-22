@@ -117,7 +117,9 @@
 
     <!-- http://www.semanticweb.org/ontologies/2017/9/untitled-ontology-2#人物 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2017/9/untitled-ontology-2#人物"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2017/9/untitled-ontology-2#人物">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2017/9/untitled-ontology-2#地点"/>
+    </owl:Class>
     
 
 
