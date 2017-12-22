@@ -43,6 +43,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#别名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#别名">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#法号 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#法号">
@@ -115,7 +123,7 @@
     <!-- http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#苏轼 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dean/ontologies/2017/11/love-ontology-0#苏轼">
-        <法号>苏东坡、东坡</法号>
+        <别名>苏东坡、东坡</别名>
     </owl:NamedIndividual>
     
 
